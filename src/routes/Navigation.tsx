@@ -22,7 +22,7 @@ export const Navigation = () => {
                 routes.map(({ path, Component, name }) => {
                   return (
                     <li key={name}>
-                      <NavLink to={path} activeClassName="nav-active" exact>{name}</NavLink>
+                      <NavLink to={path} activeClassName="nav-active">{name}</NavLink>
                     </li>
                   );
                 })
