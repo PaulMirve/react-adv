@@ -9,3 +9,5 @@ export const LazyPage3 = (props: Props) => {
         </div>
     )
 }
+
+export default LazyPage3;
